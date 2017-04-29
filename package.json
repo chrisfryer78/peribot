@@ -2,9 +2,10 @@
   "name": "peribot",
   "version": "0.0.1",
   "description": "Periscope Robot",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chrisfryer78/peribot/issues"
   },
-  "homepage": "https://github.com/chrisfryer78/peribot#readme"
+  "homepage": "https://github.com/chrisfryer78/peribot#readme",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
 }
